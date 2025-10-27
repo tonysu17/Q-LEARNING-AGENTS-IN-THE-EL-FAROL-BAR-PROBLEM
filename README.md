@@ -73,3 +73,18 @@ $$
 ## Key Findings
 
 The simulation successfully reproduces the hallmark dynamics of the El Farol Bar Problem and provides new insights into the role of agent sophistication.
+* **Convergence:** The system dynamics mirror Arthur's 1994 results. After an initial period of high, erratic volatility, the attendance level "damps" and converges to a quasi-stationary "$\epsilon$-neighborhood" around the capacity threshold $C=60$. (See Figure 2).
+
+* **Efficiency and Equity:** The self-organizing agents achieve a state that is both highly efficient and highly equitable.
+    * **Efficiency:** Attendance stabilizes near the optimal capacity, minimizing volatility and resource waste.
+    * **Equity:** The distribution of long-run payoffs is almost perfectly uniform. The simulation recorded a Gini coefficient of 0.073 (where 0 is perfect equality) and a Jain's Fairness Index of 0.9836 (where 1 is perfect fairness). This indicates that no subset of agents consistently "wins" or "loses," satisfying both Utilitarian and Rawlsian notions of justice.
+
+* **The "Sweet Spot" for Memory ($M$):** The memory length $M$ is a critical parameter.
+    * **Too little memory ($M=1, 2$):** Agents react noisily to the most recent outcome but achieve decent coordination and low volatility.
+    * **Moderate memory ($M \approx 3.5$):** This regime produced the highest average rewards.
+    * **Too much memory ($M=5+$):** Agents become "excessively sophisticated". They over-fit to outdated patterns, causing them to synchronize their actions. This reduces efficiency and increases volatility and instability.
+
+* **Exploration:** Moderate exploration (a small $\epsilon$ or intermediate $\tau$) is crucial. It injects "healthy diversity" that prevents agents from getting locked into suboptimal, herd-like behaviors.
+
+## Running the Simulation
+*(This section is a placeholder; you can add your project's specific setup instructions.)*
