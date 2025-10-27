@@ -83,6 +83,3 @@ The simulation successfully reproduces the hallmark dynamics of the El Farol Bar
     * **Too much memory ($M=5+$):** Agents become "excessively sophisticated". They over-fit to outdated patterns, causing them to synchronize their actions. This reduces efficiency and increases volatility and instability.
 
 * **Exploration:** Moderate exploration (a small $\epsilon$ or intermediate $\tau$) is crucial. It injects "healthy diversity" that prevents agents from getting locked into suboptimal, herd-like behaviors.
-
-## Running the Simulation
-*(This section is a placeholder; you can add your project's specific setup instructions.)*
