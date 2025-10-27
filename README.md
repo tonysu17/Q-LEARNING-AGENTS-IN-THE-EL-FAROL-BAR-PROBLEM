@@ -1,8 +1,6 @@
 # Q-Learning Agents in the El Farol Bar Problem
 
-This project is an agent-based simulation of the El Farol Bar Problem (EFBP) using tabular Q-learning agents. It investigates how boundedly rational agents, using reinforcement learning, can learn to coordinate their attendance at a resource-constrained venue.
-
-The simulation explores the emergent dynamics of the system, focusing on attendance volatility, efficiency, and the equity of outcomes (payoff distribution) among agents.
+This dissertation is an agent-based simulation of the El Farol Bar Problem (EFBP) using tabular Q-learning agents. We were inspired by the work of Brian Arthur in his formulation of the canonical EFBP, which marks the genesis of Complexity Economics. The dissertation looks to extend upon the work of Arthur by endowing agents with a reinforcement learning algorithm to assess its efficacy in reproducing the empirically observed stylised facts. The simulation explores the emergent dynamics of the system, focusing on attendance volatility, efficiency, and the equity of outcomes (payoff distribution) among agents. We wish to explore how boundedly rational agents, using reinforcement learning, can learn to coordinate their attendance at a resource-constrained venue. We believe this toy problem may provide far-reaching insights into any domains with an inherent network structure, containing many decentralised agents.
 
 ## Table of Contents
 - [About the Project](#about-the-project)
